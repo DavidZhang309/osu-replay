@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ReplaySelectComponent } from './replay-select/replay-select.component';
+import { ReplayPlayerComponent } from './replay-player/replay-player.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReplaySelectComponent,
+    ReplayPlayerComponent
   ],
   imports: [
     BrowserModule
